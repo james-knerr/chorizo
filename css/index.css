@@ -19,7 +19,6 @@ body {
   margin: 0;
   font-family: -apple-system, system-ui, sans-serif;
   color: var(--darkgray);
-  background-color: var(--white);
 }
 p:last-child {
   margin-bottom: 0;
@@ -246,4 +245,12 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+body {
+  background: linear-gradient(135deg, #89023e 0.6em, rgba(137, 2, 62, 0) 0.6em) 0 2em, linear-gradient(-135deg, #89023e 0.6em, rgba(137, 2, 62, 0) 0.6em) 0 2em, radial-gradient(circle at 3.58em 3.7em, #89023e 0.51em, rgba(137, 2, 62, 0) 0.522em) 0 -2em, radial-gradient(circle at 0.42em 3.7em, #89023e 0.51em, rgba(137, 2, 62, 0) 0.522em) 0 -2em, linear-gradient(135deg, #ea638c 0.6em, rgba(234, 99, 140, 0.12) 0.6em) 2em 0, linear-gradient(-135deg, #ea638c 0.6em, rgba(234, 99, 140, 0.12) 0.6em) 2em 0, radial-gradient(circle at 3.58em 3.7em, #ea638c 0.51em, rgba(234, 99, 140, 0.12) 0.522em) 2em 0, radial-gradient(circle at 0.42em 3.7em, #ea638c 0.51em, rgba(234, 99, 140, 0.12) 0.522em) 2em 0;
+  background-size: 4em 4em;
+  background-color: #FFD9DA;
+  background-repeat: repeat;
+  font: 16px/2 "Trebuchet MS", Verdana, sans-serif;
 }
