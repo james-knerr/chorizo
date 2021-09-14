@@ -1,8 +1,7 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://example.com/",
+  "title": "Chorizo for X-Wings",
+  "url": "https://www.chorizoforxwings.com/",
   "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
   "feed": {
     "subtitle": "I am writing about my experiences as a naval navel-gazer.",
     "filename": "feed.xml",
